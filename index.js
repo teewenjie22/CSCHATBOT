@@ -17,7 +17,7 @@ const bot = new Telegraf(API_KEY);
 // //modern systax allows me to write it shrter with efault return
 // const greet2 = name => "Hello" + name;
 
-const helpHandler = ctx => ctx.reply("Hello");
+const helpHandler = context => context.reply("Hello");
 bot.help("helpHandler");
 
 // bot.help((ctx) => ctx.reply('Hello'))
