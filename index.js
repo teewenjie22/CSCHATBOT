@@ -21,5 +21,8 @@ const helpHandler = ctx => ctx.reply("Hello");
 bot.help(helpHandler);
 
 // bot.help((ctx) => ctx.reply('Hello'))
+bot.shaun((ctx) => ctx.reply('smartguy'));
+bot.wenjie((ctx) => ctx.reply('fatguy'));
+
 
 bot.launch();
