@@ -18,7 +18,7 @@ const bot = new Telegraf(API_KEY);
 // const greet2 = name => "Hello" + name;
 
 const helpHandler = ctx => ctx.reply("Hello");
-bot.help("helpHandler");
+bot.help(helpHandler);
 
 // bot.help((ctx) => ctx.reply('Hello'))
 
